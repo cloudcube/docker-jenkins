@@ -10,7 +10,7 @@ jenkins的docker镜像
       -v /var/run/docker.sock:/var/run/docker.sock \
       -v $(which docker):/usr/bin/docker \
       -v /lib/x86_64-linux-gnu/libdevmapper.so.1.02.1:/lib/x86_64-linux-gnu/libdevmapper.so.1.02.1 \
-      -v /home/docker/docker_data/jenkins:/var/lib/jenkins \
+      -v /home/docker/docker_data/jenkins:/var/jenkins_home \
       -p 18080:8080 \
       cloudcube/jenkins  
 
