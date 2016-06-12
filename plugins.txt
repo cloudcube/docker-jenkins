@@ -3,5 +3,3 @@ git-client:latest
 git:latest
 greenballs:latest
 gitlab-plugin:latest
-gitlab-hook:latest
-email-ext:latest
