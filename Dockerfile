@@ -3,6 +3,7 @@ FROM jenkins
 USER root
 RUN apt-get update \
       && apt-get install -y sudo libapparmor-dev \
+      && apt-get install expect \
       && rm -rf /var/lib/apt/lists/*
 RUN echo "jenkins ALL=NOPASSWD: ALL" >> /etc/sudoers
  
