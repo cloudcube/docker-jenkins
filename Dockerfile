@@ -1,4 +1,4 @@
-FROM jenkins:latest
+FROM registry.aliyuncs.com/haibin/base-jenkins:latest
 
 USER root
 RUN apt-get update \
