@@ -1,4 +1,5 @@
 scm-api:latest
-git-client:latest
 git:latest
+gitlab-plugin:latest
+gitlab-hook:latest
 greenballs:latest
